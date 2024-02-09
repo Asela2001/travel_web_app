@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatable" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Travel world</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="icon" href="images/favicon1.png" type="favicon/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <!--google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span><i class="fa-solid fa-bars"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#book">Book</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#packages">Packages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">searvices</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallary">Gallary</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!--home section-->  
+        <div class="home">
+            <div class="content">
+                <h5>Welcome to World</h5>
+                <h1>Travel<span class="changecontent"></span></h1>
+                <p>Welcome to travel-world for unforgettable journeys! Expirience a world of adventure, relaxation, <br>and cultural richness as you explore our curated selection of destinations, accommodations, and travel experiences.</p>
+                <a href="#book">Book place</a>
+            </div>
+        </div>
+
+        <!--book section-->
+        <section class="book" id="book">
+            <div class="container">
+                <div class="main-text">
+                    <h1><span>B</span>OOK</h1>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/book1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 py-3 py-md-0">
+                        <form action="#">
+                            <input type="text" class="form-control" placeholder="Where To" required><br>
+                            <input type="text" class="form-control" placeholder="How Many" required><br>
+                            <input type="date" class="form-control" placeholder="Arrival" required><br>
+                            <input type="date" class="form-control" placeholder="Leaving" required><br>
+                            <textarea class="form-control" rows="5" name="text" placeholder="Enter your name and details..."></textarea>
+                            <input type="submit" value="Book Now" class="submit" required>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--package section-->
+        <section class="packages" id="packages">
+            <div class="container">
+
+                <div class="main-text">
+                    <h1><span>P</span>ACKAGES</h1>
+                </div>
+
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-4 py-3 py-md-0">
+
+                        <div class="card">
+                            <img src="./images/german1.png">
+                            <div class="card-body">
+                                <h3>German</h3>
+                                <h4>Cinderella's castle</h4>
+                                <p>Neuschwanstein Castle was built in the 19th century for King Ludwig II. It's as pretty as a picture in any weather.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price: <strong>$250</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+
+                        <div class="card">
+                            <img src="./images/france1.png">
+                            <div class="card-body">
+                                <h3>France</h3>
+                                <h4>Massena Nice</h4>
+                                <p>Best Western Plus Hôtel Massena Nice is a design hotel in the heart of Nice, just 200 metres from the beach. </p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price: <strong>$300</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+
+                        <div class="card">
+                            <img src="./images/dubayi1.png">
+                            <div class="card-body">
+                                <h3>Dubayi</h3>
+                                <h4>Burj Al Arab Jumeirah</h4>
+                                <p>Situated on its own island, Burj Al Arab Jumeirah features suites overlooking the sea, 8 signature restaurants and a full-service spa.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h6>Price: <strong>$360</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+
+                        <div class="card">
+                            <img src="./images/japan1.png">
+                            <div class="card-body">
+                                <h3>Japan</h3>
+                                <h4>Yunoshimakan</h4>
+                                <p>Perched on a hill with panoramic views of Gero's hot spring area, you’ll find the stunning Yunoshimakan.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price: <strong>$350</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+
+                        <div class="card">
+                            <img src="./images/london1.png">
+                            <div class="card-body">
+                                <h3>London</h3>
+                                <h4>NY-LON Corporate Apartments</h4>
+                                <p>Situated 400 metres from Canary Wharf Underground Station, NY-LON Corporate Apartments is a recently renovated 4-star accommodation in London</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price: <strong>$290</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+
+                        <div class="card">
+                            <img src="./images/hawali1.png">
+                            <div class="card-body">
+                                <h3>United States</h3>
+                                <h4>Napili Surf Beach Resort</h4>
+                                <p>This beachfront Maui resort is just a 12-minute walk to Napili Market.  It features 2 outdoor pools, on-site snorkeling and shuffleboard courts</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price: <strong>$350</strong></h6>
+                                <a href="#book">Book Now</a>
+                                <br>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--servise section-->
+        <section class="services" id="services">
+            <div class="container">
+
+                <div class="main-text">
+                    <h1><span>S</span>ERVICES</h1>
+                </div>
+
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <i class="fas fa-hotel"></i>
+                            <div class="card-body">
+                                <h3>Affordable Hotels</h3>
+                                <p>Affordable Hotels: Where Quality Meets Affordability. Find the Perfect Stay Without Breaking the Bank. Book Now</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <i class="fas fa-compass"></i>
+                            <div class="card-body">
+                                <h3>Price Comparison</h3>
+                                <p>Provide a comparison of hotel prices from various booking websites to help users find the best deals.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <i class="fas fa-bullhorn"></i>
+                            <div class="card-body">
+                                <h3>Booking</h3>
+                                <p>Facilitate the booking process by allowing users to reserve their chosen hotel directly through your website.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <div class="card-body">
+                                <h3>Map View</h3>
+                                <p>Provide a map interface that shows the locations of affordable hotels in relation to popular attractions, transportation hubs, and other points of interest.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <i class="fas fa-suitcase"></i>
+                            <div class="card-body">
+                                <h3>Secure Payment Processing</h3>
+                                <p>Ensure secure payment processing for hotel bookings, supporting various payment methods for user convenience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <i class="fas fa-hiking"></i>
+                            <div class="card-body">
+                                <h3>Customer Support</h3>
+                                <p> Offer customer service and support channels to assist users with booking inquiries, modifications, cancellations, or any other assistance they may need.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--servise section-->
+        <section class="gallary" id="gallary">
+            <div class="container">
+
+                <div class="main-text">
+                    <h1><span>G</span>ALLARY</h1>
+                </div>
+
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/gl1.png" alt="" height="300px">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/gl2.png" alt="" height="300px">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/gl3.png" alt="" height="300px">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/gl4.png" alt="" height="300px">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/gl5.png" alt="" height="300px">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/gl6.png" alt="" height="300px">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/gl7.png" alt="" height="300px">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/gl8.png" alt="" height="300px">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/gl9.png" alt="" height="300px">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--about section-->
+        <section class="about" id="about">
+            <div class="container">
+
+                <div class="main-text">
+                    <h1><span>A</span>BOUT</h1>
+                </div>
+
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col-md-6 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./images/about1.png" alt="about/png" height="300px">
+                        </div>
+                    </div>
+                    <div class="col-md-6 py-3 py-md-0">
+                        <h2>How we work</h2>
+                        <p>Travel agencies serve as intermediaries between travelers and travel suppliers such as airlines, hotels, tour operators, and car rental companies. They assist travelers in planning and booking various aspects of their trips, including flights, accommodations, transportation, and activities. Travel agents leverage their expertise, industry connections, and technology to offer personalized recommendations, competitive pricing, and convenient booking solutions. They provide valuable assistance throughout the travel process, from initial trip planning to post-travel support, ensuring a seamless and enjoyable experience for their clients</p>
+                        <button id="about-btn">Read More...</button>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <!--footer-->
+        <footer id="footer">
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="copywrite">
+                <p>&copy;All Rights Reserved</p>
+            </div>
+        </footer>
+        
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
